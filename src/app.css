@@ -40,3 +40,18 @@
 * {
     font-family: 'Trial', sans-serif;
 }
+
+body {
+    position: relative;
+    min-height: 1000px;
+    background: #F4F3EE;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    display: block;
+    background: url('./assets/images/DOTS.png');
+    z-index: -1;
+}
