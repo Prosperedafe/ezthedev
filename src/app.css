@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Trial';
+    font-display: swap;
+    font-weight: 200;
+    src: local('Trial'), url('./assets/Fonts/TRIAL Phantom Sans 0.8 Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Trial';
+    font-display: swap;
+    font-weight: 300;
+    src: local('Trial'), url('./assets/Fonts/TRIAL-Phantom-Sans-0.8-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Trial';
+    font-display: swap;
+    font-weight: 400;
+    src: local('Trial'), url('./assets/Fonts/TRIAL Phantom Sans 0.8 Book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Trial';
+    font-display: swap;
+    font-weight: 500;
+    src: local('Trial'), url('./assets/Fonts/TRIAL Phantom Sans 0.8 Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Trial';
+    font-display: swap;
+    font-weight: 600;
+    src: local('Trial'), url('./assets/Fonts/TRIAL Phantom Sans 0.8 Semibold.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Trial', sans-serif;
+}
