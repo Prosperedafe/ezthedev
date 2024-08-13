@@ -6,7 +6,7 @@ import './app.css'
 
 <template>
   <NavBar />
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
 </template>
-
-<style scoped></style>

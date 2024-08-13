@@ -43,15 +43,16 @@
 
 body {
     position: relative;
-    min-height: 1000px;
     background: #F4F3EE;
 }
 
 body::before {
     content: '';
-    position: absolute;
-    inset: 0;
+    position: fixed;
+    inset: 67px 0 0 0;
+    height: 100vh;
     display: block;
-    background: url('./assets/images/DOTS.png');
+    background: url('./assets/images/DOTS.png') no-repeat;
+    background-size: cover;
     z-index: -1;
 }
