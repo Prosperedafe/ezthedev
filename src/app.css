@@ -56,3 +56,14 @@ body::before {
     background-size: cover;
     z-index: -1;
 }
+
+.vue3-marquee.horizontal,
+.description-text {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.vue3-marquee.horizontal::-webkit-scrollbar,
+.description-text::-webkit-scrollbar {
+    display: none;
+}

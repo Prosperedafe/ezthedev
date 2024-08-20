@@ -1,5 +1,5 @@
 <template>
-    <div class="px-[5%] pt-8 md:pt-16 pb-8">
+    <div class="px-[5%] pt-[6rem] pb-8">
         <slot></slot>
     </div>
 </template>

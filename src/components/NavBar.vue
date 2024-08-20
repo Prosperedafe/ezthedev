@@ -3,8 +3,8 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-    <header>
-        <nav class="flex justify-between items-center px-[5%] py-2 bg-primaryBg">
+    <header class="fixed w-full z-10 backdrop-blur-[2px]">
+        <nav class="flex justify-between items-center px-[5%] py-2">
             <RouterLink class="text-2xl font-bold" to="/">EZRA SOKOU</RouterLink>
             <ul class="flex gap-x-6 text-lg">
                 <li>
