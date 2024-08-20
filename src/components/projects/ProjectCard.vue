@@ -1,17 +1,14 @@
 <template>
     <section>
-        <div class="rounded-[25px] bg-white h-64">
-            001
+        <div class="rounded-[25px] bg-white h-80 text-right p-4 mb-3">
+            {{ project?.position }}
         </div>
-        <p>{{ }} -Booking Website</p>
+        <p>{{ project?.name }}</p>
     </section>
 </template>
 
-<script>
-export default {
-    name: 'ProjectCard',
-    props: {
-        project
-    },
-}
+<script setup lang="ts">
+import { defineProps } from 'vue';
+import type { ProjectProps } from '@/utils/interface';
+defineProps<{ project: ProjectProps }>();
 </script>

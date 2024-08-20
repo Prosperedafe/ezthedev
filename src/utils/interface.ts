@@ -3,4 +3,5 @@ export interface ProjectProps {
     url: string
     id: string
     logo: string
+    position: string
 }
