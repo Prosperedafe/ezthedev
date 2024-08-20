@@ -73,6 +73,10 @@ export default {
             swiperInstance?.value.slidePrev()
         };
         const breakpoints = {
+            100: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
             320: {
                 slidesPerView: 1,
                 spaceBetween: 20,
