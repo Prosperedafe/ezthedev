@@ -3,9 +3,9 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-    <header class="fixed w-full z-10 backdrop-blur-[2px]">
+    <header class="fixed w-full z-10 backdrop-blur-[6px]">
         <nav class="flex justify-between items-center px-[5%] py-2">
-            <RouterLink class="text-2xl font-bold" to="/">EZRA SOKOU</RouterLink>
+            <RouterLink class="text-2xl font-bold" to="/">EZRA SOUKOU</RouterLink>
             <ul class="flex gap-x-6 text-lg">
                 <li>
                     <RouterLink to="/about">Project folio</RouterLink>
