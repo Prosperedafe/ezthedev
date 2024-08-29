@@ -3,12 +3,12 @@
     <NameMarquee />
     <div class="px-[5%]">
       <p class="text-right font-medium">Based In Lagos, Nigeria 🇳🇬</p>
-      <article class="grid md:grid-cols-2 lg:grid-cols-[1.3fr_2fr] text-base gap-x-[4%] gap-8 py-16 relative">
+      <article class="grid md:grid-cols-2 lg:grid-cols-[1.3fr_2fr] text-base gap-x-[4%] gap-y-12 py-16 relative">
         <figure>
-          <img src="../assets/images/ezra-the-developer-image.webp" class="w-full md:sticky top-[2rem]"
+          <img src="../assets/images/ezra-the-developer-image.webp" class="lsm:w-[90%] w-full md:sticky top-[2rem]"
             alt="ezra at oyasync hangout">
         </figure>
-        <div class="flex flex-col gap-3 max-w-[680px]">
+        <div class="flex flex-col gap-3 max-w-[80%] ml-auto md:ml-0 md:max-w-[680px]">
           <p>
             Hello! My name is [Your Name], and I am a passionate full stack developer with a deep love for crafting
             dynamic and responsive web applications. My journey into coding began [X] years ago, driven by a fascination
@@ -82,10 +82,10 @@
       </div>
     </section>
     <section id="photo-journal" class="px-[5%] py-12">
-      <div class="flex justify-between items-center mb-10">
-        <h3 id="photo-journal" class="font-medium text-[1.2rem]">MY PHOTO JOURNAL</h3>
-        <a class="bg-[#1D1C1C] text-white font-medium px-[25px] py-3 rounded-[25px]" href="http://" target="_blank"
-          rel="noopener noreferrer">Follow me on X</a>
+      <div class="flex justify-between items-center mb-10 gap-4 flex-wrap">
+        <h3 id="photo-journal" class="font-medium text-base sm:text-[1.2rem]">MY PHOTO JOURNAL</h3>
+        <a class="bg-[#1D1C1C] text-white font-medium px-4 py-2 sm:px-[25px] sm:py-3 rounded-[25px]" href="http://"
+          target="_blank" rel="noopener noreferrer">Follow me on X</a>
       </div>
       <swiper ref="swiperRef" @swiper="onSwiper" :breakpoints="breakpoints" :slidesPerView="4" :spaceBetween="30">
         <swiper-slide v-for="(journal, index) in photoJournal" :key="index">
@@ -169,7 +169,7 @@ export default {
         spaceBetween: 20,
       },
       320: {
-        slidesPerView: 1,
+        slidesPerView: 1.25,
         spaceBetween: 20,
       },
       540: {

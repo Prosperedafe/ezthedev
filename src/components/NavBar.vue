@@ -5,7 +5,8 @@
             <div ref="mobileNavRef" :class="mobileNavClasses">
                 <RouterLink class="text-2xl hidden md:block font-bold text-primaryText" to="/">EZRA SOUKOU</RouterLink>
                 <div class="flex items-center justify-between md:hidden">
-                    <RouterLink class="text-xl font-bold text-primaryText" to="/">EZRA SOUKOU</RouterLink>
+                    <RouterLink @click="toggleNavActive()" class="text-xl font-bold text-primaryText" to="/">EZRA SOUKOU
+                    </RouterLink>
                     <button @click="toggleNavActive()" class="-mr-4">
                         <svg width="59" height="33" viewBox="0 0 59 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_168_2764)">
@@ -24,13 +25,13 @@
                 </div>
                 <ul
                     class="flex flex-col md:flex-row text-primaryText font-medium gap-y-4 md:gap-y-0 gap-x-6 text-2xl md:text-lg mt-24 md:mt-0 mb-8 md:mb-0">
-                    <li>
+                    <li @click="toggleNavActive()">
                         <RouterLink to="/about">Project folio</RouterLink>
                     </li>
-                    <li>
+                    <li @click="toggleNavActive()">
                         <RouterLink to="/about">About Me</RouterLink>
                     </li>
-                    <li>
+                    <li @click="toggleNavActive()">
                         <RouterLink to="/about">Read Cv</RouterLink>
                     </li>
                 </ul>
