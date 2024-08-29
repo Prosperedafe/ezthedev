@@ -14,8 +14,5 @@ export default defineComponent({
     components: {
         Vue3Marquee,
     },
-    setup() {
-        return {}
-    },
 })
 </script>
