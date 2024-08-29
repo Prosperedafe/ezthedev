@@ -82,8 +82,8 @@
       </div>
     </section>
     <section id="photo-journal" class="px-[5%] py-12">
-      <div class="flex justify-between items-center">
-        <h3 id="photo-journal" class="font-medium text-[1.2rem] mb-10">MY PHOTO JOURNAL</h3>
+      <div class="flex justify-between items-center mb-10">
+        <h3 id="photo-journal" class="font-medium text-[1.2rem]">MY PHOTO JOURNAL</h3>
         <a class="bg-[#1D1C1C] text-white font-medium px-[25px] py-3 rounded-[25px]" href="http://" target="_blank"
           rel="noopener noreferrer">Follow me on X</a>
       </div>
