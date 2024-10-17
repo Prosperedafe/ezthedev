@@ -9,45 +9,23 @@
             alt="ezra at oyasync hangout">
         </figure>
         <div class="flex flex-col gap-3 max-w-[80%] ml-auto md:ml-0 md:max-w-[680px]">
+          <h1 class="text-xl font-medium">Fullstack Developer | React Native | Next.js | Node.js | Content Creator</h1>
           <p>
-            Hello! My name is [Your Name], and I am a passionate full stack developer with a deep love for crafting
-            dynamic and responsive web applications. My journey into coding began [X] years ago, driven by a fascination
-            with technology's limitless possibilities.
+            I am a passionate Fullstack Developer with 2+ years of hands-on experience building and optimizing web and
+            mobile applications. My expertise spans across front-end and back-end technologies like React Native,
+            React,
+            Next.js, Node.js, and I’m especially fond of working with TypeScript for its type safety and reliability.
           </p>
           <p>
-            I hold a [Your Degree] in [Your Field] from [Your University], where I developed a strong foundation in
-            computer science. My professional career started at [Company Name], where I contributed to the development
-            of
-            a scalable e-commerce platform that enhanced user experience and boosted sales by 30%. This role solidified
-            my
-            commitment to creating applications that are both functional and user-friendly.
+            On the server side, I have extensive experience designing and developing RESTful APIs, optimizing database
+            schemas, and creating scalable solutions that meet both business and technical requirements. I enjoy
+            collaborating with cross-functional teams to build applications that are both robust and user-friendly.
           </p>
           <p>
-            Over the years, I have honed my skills across a wide range of technologies. On the front-end, I excel in
-            HTML,
-            CSS, JavaScript, React, and Angular. On the back-end, I am proficient in Node.js, Express, Ruby on Rails,
-            and
-            Django. I am also experienced with databases like MySQL, PostgreSQL, and MongoDB, and DevOps tools such as
-            Docker, Kubernetes, AWS, and Jenkins. This diverse skill set allows me to approach problems holistically and
-            deliver comprehensive solutions.
-          </p>
-          <p>
-            I am dedicated to continuous learning and staying updated with the latest technological advancements. This
-            proactive mindset has led me to participate in hackathons and contribute to open-source projects, fostering
-            collaboration and innovation.
-          </p>
-          <p>
-            Beyond my professional life, I enjoy [Your Hobbies], which provide a creative outlet and keep me inspired.
-            Whether it’s [specific hobby-related activities], these interests enrich my life and enhance my overall
-            well-being. <br>
-            Looking forward, I am excited about the future of technology and the opportunities it brings. My goal is to
-            work on innovative projects that positively impact people's lives and explore new frontiers in [specific
-            areas
-            of interest or technology].
-          </p>
-          <p>
-            Thank you for taking the time to learn about me. I look forward to the opportunity to collaborate with
-            like-minded professionals and drive progress and innovation together.
+            In addition to coding, I enjoy sharing my knowledge through tech content creation. Whether it's breaking
+            down complex concepts, writing tutorials, or adding a humorous spin to everyday tech problems, my goal is
+            to
+            make tech approachable and enjoyable for everyone.
           </p>
         </div>
       </article>
