@@ -1,5 +1,5 @@
 <template>
-    <header class="fixed w-full z-10 backdrop-blur-[6px] bg-primaryBg md:bg-transparent">
+    <header class="fixed w-full z-10 bg-primaryBg">
         <nav class="flex md:block items-center justify-between px-[5%] py-4 md:py-0 md:px-0 relative">
             <RouterLink class="text-xl block md:hidden font-bold text-primaryText" to="/">EZRA SOUKOU</RouterLink>
             <div ref="mobileNavRef" :class="mobileNavClasses">

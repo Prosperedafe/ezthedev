@@ -2,35 +2,60 @@
   <div class="pt-24 sm:pt-16 text-primaryText">
     <NameMarquee />
     <div class="px-[5%]">
-      <p class="text-right font-medium">Based In Lagos, Nigeria 🇳🇬</p>
+      <p class="text-right font-medium">Based In Lagos, Nigeria <img src="../assets/images/Nigeria-flag.png"
+          alt="nigerian flag" class="size-4 ml-1 inline-block" />
+      </p>
       <article class="grid md:grid-cols-2 lg:grid-cols-[1.3fr_2fr] text-base gap-x-[4%] gap-y-12 py-16 relative">
         <figure>
           <img src="../assets/images/ezra-the-developer-image.webp" class="lsm:w-[90%] w-full md:sticky top-[2rem]"
             alt="ezra at oyasync hangout">
         </figure>
         <div class="flex flex-col gap-3 max-w-[80%] ml-auto md:ml-0 md:max-w-[680px]">
-          <h1 class="text-xl font-medium">Fullstack Developer | React Native | Next.js | Node.js | Content Creator</h1>
+          <h1 class="text-xl font-medium">Software Engineer | Content Creator</h1>
           <p>
-            I am a passionate Fullstack Developer with 2+ years of hands-on experience building and optimizing web and
-            mobile applications. My expertise spans across front-end and back-end technologies like React Native,
-            React,
-            Next.js, Node.js, and I’m especially fond of working with TypeScript for its type safety and reliability.
+            I am a dedicated Fullstack Developer with over 2 years of hands-on experience in building, optimizing, and
+            scaling both web and mobile applications. My expertise lies in both front-end and back-end development, with
+            proficiency in technologies such as React Native, React, Next.js, and Node.js. I have a strong affinity for
+            TypeScript due to its type safety, maintainability, and the overall confidence it provides in writing robust
+            code.
           </p>
           <p>
-            On the server side, I have extensive experience designing and developing RESTful APIs, optimizing database
-            schemas, and creating scalable solutions that meet both business and technical requirements. I enjoy
-            collaborating with cross-functional teams to build applications that are both robust and user-friendly.
+            In the front-end, I focus on creating user-friendly interfaces that prioritize smooth navigation and
+            responsive design. My goal is to ensure that every app I build not only looks great but also delivers a
+            seamless and intuitive experience across various devices. I pay close attention to design details, ensuring
+            that the UI aligns with user needs and business goals.
           </p>
           <p>
-            In addition to coding, I enjoy sharing my knowledge through tech content creation. Whether it's breaking
-            down complex concepts, writing tutorials, or adding a humorous spin to everyday tech problems, my goal is
-            to
-            make tech approachable and enjoyable for everyone.
+            On the back-end, I have extensive experience in architecting RESTful APIs, implementing secure
+            authentication systems, and optimizing database schemas to handle large volumes of data efficiently. My
+            approach is to ensure that server-side logic is both performant and scalable, enabling businesses to grow
+            without worrying about technical bottlenecks. I work with databases like MongoDB, ensuring quick data
+            retrieval and smooth integration with the front-end.
+          </p>
+          <p>
+            In addition to my technical expertise, I thrive in collaborative environments, working closely with
+            cross-functional teams including designers, product managers, and other developers. I am highly motivated by
+            problem-solving, always seeking innovative ways to tackle challenges and deliver solutions that exceed
+            expectations. Whether it's troubleshooting performance issues, integrating third-party services, or
+            refactoring code for better efficiency, I take pride in delivering high-quality, well-architected solutions
+            that can scale over time.
+          </p>
+          <p>
+            Beyond coding, I’m equally passionate about tech content creation. I believe in sharing knowledge with the
+            wider tech community, whether that’s through blog posts, tutorials, or engaging content that demystifies
+            complex topics. My goal is to make technology more accessible and fun, often weaving humor into my content
+            to connect with audiences of all levels. From breaking down intricate software engineering concepts to
+            providing practical tips and insights, I aim to inspire and educate others in the tech space.
+          </p>
+          <p>
+            As both a developer and a content creator, I’m driven by a desire to continuously learn, innovate, and
+            contribute to the ever-evolving world of technology. Whether working on projects or sharing ideas with the
+            community, I strive to make a meaningful impact through both my code and content.
           </p>
         </div>
       </article>
     </div>
-    <section id="my-skills" class="text-center py-12">
+    <!-- <section id="my-skills" class="text-center py-12">
       <h2 id="my-skills" class="uppercase text-xl font-medium">My Skill Set</h2>
       <p class="text-[calc(1rem_+_1px)] px-[5%] mt-3">Here are the languages i use to create some amazing websites</p>
       <div class="relative h-[290px] max-w-[550px] mx-auto flex items-end justify-center mt-12">
@@ -44,11 +69,10 @@
         <p class="max-w-[150px] lsm:max-w-[170px] sm:max-w-[220px]">Python is a versatile and easy-to-read programming
           language used for web development, data analysis, machine learning, automation, and more.</p>
       </div>
-    </section>
-    <section id="experience" class="px-[5%] pt-8">
+    </section> -->
+    <section id="experience" class="px-[5%] pt-8 max-w-[800px]">
       <h3 class="font-medium text-[1.2rem] mb-10" id="experience">EXPERIENCE HISTORY</h3>
-      <div class="sm:flex justify-between items-center sm:px-6 mb-5" v-for="(experience, index) in experience"
-        :key="index">
+      <div class="sm:flex justify-between items-center mb-5" v-for="(experience, index) in experience" :key="index">
         <div>
           <p class="text-[1.4rem] font-medium">{{ experience.role }}</p>
           <p class="text-[calc(1rem_+_1px)]">{{ experience.company }}</p>

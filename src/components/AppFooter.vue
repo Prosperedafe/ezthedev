@@ -2,7 +2,7 @@
     <footer class="px-[5%] pb-32 pt-12 sm:pt-0 overflow-hidden">
         <section>
             <h2 class="text-[16vw] lg:text-[17vw] text-center text-primaryText">Get In Touch</h2>
-            <div class="w-fit ml-auto mr-[20%]">
+            <div class="w-fit ml-auto mr-4">
                 <EzMedia />
                 <div class="my-6">
                     <p>DESIGNED BY_BRIGHT MARVELOUS</p>

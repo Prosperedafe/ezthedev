@@ -1,8 +1,13 @@
+import gassitMobile from '../assets/projects/IMG-20241017-WA0105.jpg'
+import dilusso1 from '../assets/projects/dilusso1.png'
+import dilusso2 from '../assets/projects/dilusso2.png'
+import dilusso3 from '../assets/projects/dilusso3.png'
+
 export const projects = [
     {
         name: 'Gassit Mobile Application',
         url: '',
-        logo: '',
+        logo: gassitMobile,
         images: [],
         id: 'gassit-mobile-application',
         position: "001",
@@ -89,7 +94,7 @@ export const projects = [
         name: 'Dilusso E-commerce Website',
         url: 'https://dilussostore.shop/',
         logo: '',
-        images: [],
+        images: [dilusso1, dilusso2, dilusso3],
         id: 'dilusso-e-commerce-website',
         position: "003",
         contributions: [

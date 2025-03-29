@@ -5,16 +5,12 @@ import ProJects from '@/components/projects/ProJects.vue';
 <template>
   <PagesContainer>
     <ProJects />
-    <h1 class="text-xl font-medium mt-16 md:-mt-6 text-primaryText">Fullstack Developer | React Native | Next.js |
-      Node.js | Content
-      Creator
-    </h1>
-    <p class="md:max-w-[400px] lg:max-w-[600px] uppercase mt-4">
-      I’m a Fullstack Developer with over 2 years of experience, specializing in building efficient, scalable
-      applications using React Native, React, Next.js, and Node.js. I’m skilled in optimizing server-side logic,
-      designing APIs, and building intuitive front-end interfaces. I love working with TypeScript to keep my code
-      reliable and maintainable. Alongside coding, I create tech content, sharing valuable insights and humorous takes
-      on software development and tech in general.
+    <h1 class="text-xl font-medium mt-16 md:-mt-6 text-primaryText">Software Engineer & Content Creator</h1>
+    <p class="md:max-w-[400px] lg:max-w-[320px] text-justify uppercase mt-4 text-[.9rem]">
+      With 2+ years of experience, I specialize in building scalable applications using React Native, React, Next.js,
+      and Node.js. Skilled in server-side logic, API design, and intuitive UI development, I prefer TypeScript for
+      maintainable, reliable code. I also create tech content, blending valuable insights with humor about software
+      development and tech.
     </p>
   </PagesContainer>
 </template>

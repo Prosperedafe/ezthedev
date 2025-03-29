@@ -1,26 +1,26 @@
 export const experience = [
     {
-        role: 'Front-End Developer',
-        company: 'Oya Sync computer',
-        duration: 'June 2023 - Present',
+        role: 'Full Stack Engineer',
+        company: 'ScalerBit',
+        duration: 'May 2022 - Present',
         contract: 'Full Time Role'
     },
     {
-        role: 'Back-End Developer',
-        company: 'Dosh Services Ltd',
+        role: 'Back-End Engineer',
+        company: 'Dosh Services Ltd.',
         duration: 'November 2022 - Present',
         contract: 'Full Time Role'
     },
     {
-        role: 'Back-End Developer',
-        company: 'Okish',
-        duration: 'May 2023 - Present',
+        role: 'Front-End Engineer',
+        company: 'OyaSync Ltd.',
+        duration: 'June 2023 - Present',
         contract: 'Full Time Role'
     },
     {
-        role: 'Full Stack Engineer',
-        company: 'Scaler Bit',
-        duration: 'May 2023 - Present',
+        role: 'Back-End Engineer',
+        company: 'Hawkish',
+        duration: 'May 2024 - Present',
         contract: 'Full Time Role'
     },
 ]
